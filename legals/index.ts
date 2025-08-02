@@ -15,8 +15,8 @@ Welcome to HK Bus Time, a mobile application developed and owned by Tommy To, an
 - **Disclaimer**: Tommy To is not responsible for any inaccuracies, delays, or errors in bus ETAs or route information, as these depend on third-party data sources.
 
 ## 3. User Data and Permissions
-- **Location and Internet Access**: The App requires access to your device’s location and an active internet connection to provide real-time ETAs and route information. By using the App, you consent to the collection and use of your location data for this purpose.
-- **Analytics**: We use Firebase Analytics to collect anonymized usage data to improve the App’s performance and user experience. For more details, please refer to our Privacy Policy (if applicable).
+- **Location and Internet Access**: The App requires access to your device's location and an active internet connection to provide real-time ETAs and route information. By using the App, you consent to the collection and use of your location data for this purpose.
+- **Analytics**: We use Firebase Analytics to collect anonymized usage data to improve the App's performance and user experience. For more details, please refer to our Privacy Policy (if applicable).
 - **Data Storage**: User data, including location, is processed and stored securely via Supabase and other services as needed to operate the App.
 
 ## 4. User Conduct
@@ -45,9 +45,9 @@ Welcome to HK Bus Time, a mobile application developed and owned by Tommy To, an
 - These ToS are governed by and construed in accordance with the laws of the Hong Kong Special Administrative Region. Any disputes arising from these ToS or your use of the App shall be subject to the exclusive jurisdiction of the courts of Hong Kong.
 
 ## 10. Contact Information
-- For any questions, concerns, or disputes regarding the App or these ToS, please contact Tommy To at mrggto@gmail.com.
+- For any questions, concerns, or disputes regarding the App or these ToS, please contact Tommy To at hkbustime@gmail.com.
 
-By using HK Bus Time, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. Thank you for choosing HK Bus Time to navigate Hong Kong’s public transportation!
+By using HK Bus Time, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. Thank you for choosing HK Bus Time to navigate Hong Kong's public transportation!
 `;
 
 export const privacyTerms = `# Privacy Policy
@@ -59,9 +59,9 @@ HK Bus Time, developed and owned by Tommy To, is committed to protecting your pr
 This Privacy Policy complies with the **Personal Data (Privacy) Ordinance (PDPO)** of Hong Kong.
 
 ## 1. Information We Collect
-We collect minimal information to provide the App’s functionality:
+We collect minimal information to provide the App's functionality:
 
-- **Location Data**: The App collects your device’s location data only when the App is in use to provide real-time bus routes and ETAs. This data is not linked to any personally identifiable information (PII).
+- **Location Data**: The App collects your device's location data only when the App is in use to provide real-time bus routes and ETAs. This data is not linked to any personally identifiable information (PII).
 - **Analytics Data**: We use Firebase Analytics to collect anonymized data about user counts (e.g., the number of active users). This does not include PII such as names, emails, or user IDs.
 - **No Personal Information**: The App does not collect personal information such as names, email addresses, or other identifiers.
 
@@ -72,36 +72,36 @@ We use the collected information solely to operate and improve the App:
 
 ## 3. Data Storage and Security
 - **Location Data**: Your location data is stored locally on your device and is not transmitted to our servers or stored remotely. It is retained only until you delete the App from your device.
-- **Analytics Data**: Firebase Analytics data is stored on Google’s secure servers and managed according to their retention policies (typically up to 14 months for user count data).
+- **Analytics Data**: Firebase Analytics data is stored on Google's secure servers and managed according to their retention policies (typically up to 14 months for user count data).
 - **Supabase**: We use Supabase to store static polyline data for bus routes. No user data, including location or analytics data, is stored in Supabase.
 - **Security**: We take reasonable measures to protect data, including using secure third-party services (e.g., Google, Supabase). However, no method of data storage is 100% secure, and we cannot guarantee absolute security.
 
 ## 4. Data Sharing
-We do not share your data with third parties except as necessary to provide the App’s functionality:
-- **Google Maps Route API**: We use Google Maps Route API to generate route polylines. This may involve sharing your location data with Google solely to provide real-time route information. Google’s use of this data is governed by their [Privacy Policy](https://policies.google.com/privacy).
-- **Firebase Analytics**: Anonymized user count data is shared with Google for analytics purposes, governed by Google’s [Privacy Policy](https://policies.google.com/privacy).
+We do not share your data with third parties except as necessary to provide the App's functionality:
+- **Google Maps Route API**: We use Google Maps Route API to generate route polylines. This may involve sharing your location data with Google solely to provide real-time route information. Google's use of this data is governed by their [Privacy Policy](https://policies.google.com/privacy).
+- **Firebase Analytics**: Anonymized user count data is shared with Google for analytics purposes, governed by Google's [Privacy Policy](https://policies.google.com/privacy).
 - **data.gov.hk**: We use publicly available transportation data from data.gov.hk, but no user data is shared with this service.
 - We do not sell, trade, or otherwise share your data for commercial purposes.
 
 ## 5. User Control
-- **Location Data**: You can control location data collection by adjusting your device’s location settings. Disabling location access will limit the App’s ability to provide real-time ETAs and routes.
+- **Location Data**: You can control location data collection by adjusting your device's location settings. Disabling location access will limit the App's ability to provide real-time ETAs and routes.
 - **Analytics Data**: Analytics data collection via Firebase Analytics is enabled by default and cannot be disabled within the App. This data is anonymized and does not identify you personally.
 
 ## 6. Data Retention
 - **Location Data**: Stored locally on your device and deleted when you uninstall the App.
-- **Analytics Data**: Retained by Firebase Analytics for up to 14 months, as per Google’s standard retention policies, unless otherwise configured.
+- **Analytics Data**: Retained by Firebase Analytics for up to 14 months, as per Google's standard retention policies, unless otherwise configured.
 
-## 7. Children’s Privacy
-The App is not directed at children under 13 years of age, and we do not knowingly collect data from children. If you believe we have inadvertently collected data from a child under 13, please contact us at mrggto@gmail.com, and we will take steps to delete such data.
+## 7. Children's Privacy
+The App is not directed at children under 13 years of age, and we do not knowingly collect data from children. If you believe we have inadvertently collected data from a child under 13, please contact us at hkbustime@gmail.com, and we will take steps to delete such data.
 
 ## 8. Compliance with Hong Kong Law
-We comply with the **Personal Data (Privacy) Ordinance (PDPO)** of Hong Kong, which governs the collection, use, and storage of personal data. Since the App collects minimal, anonymized data and stores location data locally, we adhere to PDPO’s principles of transparency, minimal data collection, and secure handling.
+We comply with the **Personal Data (Privacy) Ordinance (PDPO)** of Hong Kong, which governs the collection, use, and storage of personal data. Since the App collects minimal, anonymized data and stores location data locally, we adhere to PDPO's principles of transparency, minimal data collection, and secure handling.
 
 ## 9. Changes to This Privacy Policy
 We may update this Privacy Policy to reflect changes in our practices, such as the introduction of new features or compliance with updated laws. The updated Privacy Policy will be posted within the App, and your continued use of the App constitutes acceptance of the revised policy.
 
 ## 10. Contact Us
-If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact Tommy To at mrggto@gmail.com.
+If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact Tommy To at hkbustime@gmail.com.
 
-By using HK Bus Time, you acknowledge that you have read, understood, and agree to this Privacy Policy. Thank you for choosing HK Bus Time to navigate Hong Kong’s public transportation!
+By using HK Bus Time, you acknowledge that you have read, understood, and agree to this Privacy Policy. Thank you for choosing HK Bus Time to navigate Hong Kong's public transportation!
 `;
