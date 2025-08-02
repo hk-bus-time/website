@@ -139,9 +139,13 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-3 mb-4 md:mb-0">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">🚌</span>
-              </div>
+              <Image
+                src="/icon.png"
+                alt="HK Bus Time Icon"
+                width={32}
+                height={32}
+                className="w-8 h-8 rounded"
+              />
               <span className="text-lg font-semibold">HK Bus Time</span>
             </div>
             <div className="flex space-x-6">
