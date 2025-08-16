@@ -11,6 +11,7 @@ Welcome to HK Bus Time, a mobile application developed and owned by Tommy To, an
 
 ## 2. Service Availability and Third-Party Data
 - **Third-Party Services**: HK Bus Time relies on third-party services, including Google Maps Route API for route polylines, data.gov.hk for transportation data, and Firebase Analytics for usage analytics. We do not guarantee the accuracy, timeliness, or availability of data provided by these services.
+- **Bus Data Source**: This app uses data from HK Bus Crawling@2021, https://github.com/hkbus/hk-bus-crawling, which provides daily updated bus route, fare, and stop information across KMB, CTB, NLB, minibus, MTR, and light rail services in Hong Kong.
 - **Service Interruptions**: The App may be unavailable due to maintenance, technical issues, or disruptions in third-party services beyond our control.
 - **Disclaimer**: Tommy To is not responsible for any inaccuracies, delays, or errors in bus ETAs or route information, as these depend on third-party data sources.
 

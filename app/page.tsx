@@ -34,20 +34,34 @@ export default function Home() {
 
               {/* Download Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 items-start mb-8">
-                <Image
-                  src="/app-store.png"
-                  alt="Download on the App Store"
-                  width={135}
-                  height={40}
-                  className="h-12 w-auto hover:opacity-80 transition-opacity cursor-pointer"
-                />
-                <Image
-                  src="/google-play.png"
-                  alt="Get it on Google Play"
-                  width={135}
-                  height={40}
-                  className="h-12 w-auto hover:opacity-80 transition-opacity cursor-pointer"
-                />
+                <a
+                  href="https://apps.apple.com/hk/app/hk-bus-time/id6749821674?platform=iphone"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <Image
+                    src="/app-store.png"
+                    alt="Download on the App Store"
+                    width={135}
+                    height={40}
+                    className="h-12 w-auto hover:opacity-80 transition-opacity cursor-pointer"
+                  />
+                </a>
+                <div className="relative inline-block">
+                  <Image
+                    src="/google-play.png"
+                    alt="Get it on Google Play"
+                    width={135}
+                    height={40}
+                    className="h-12 w-auto opacity-50 cursor-not-allowed"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <span className="text-xs font-medium text-gray-600 bg-white/90 px-2 py-1 rounded">
+                      Coming soon
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
 
