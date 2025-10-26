@@ -48,20 +48,20 @@ export default function Home() {
                     className="h-12 w-auto hover:opacity-80 transition-opacity cursor-pointer"
                   />
                 </a>
-                <div className="relative inline-block">
+                <a
+                  href="https://play.google.com/store/apps/details?id=dev.tommyto.hkbustime&pcampaignid=web_share"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
                   <Image
                     src="/google-play.png"
                     alt="Get it on Google Play"
                     width={135}
                     height={40}
-                    className="h-12 w-auto opacity-50 cursor-not-allowed"
+                    className="h-12 w-auto hover:opacity-80 transition-opacity cursor-pointer"
                   />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-xs font-medium text-gray-600 bg-white/90 px-2 py-1 rounded">
-                      Coming soon
-                    </span>
-                  </div>
-                </div>
+                </a>
               </div>
             </div>
 

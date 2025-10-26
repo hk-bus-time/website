@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { isIOS } from "react-device-detect";
+import { isIOS, isAndroid } from "react-device-detect";
 
 export default function DownloadPage() {
   const router = useRouter();
@@ -13,8 +13,12 @@ export default function DownloadPage() {
       // Redirect to App Store for iOS devices
       window.location.href =
         "https://apps.apple.com/hk/app/hk-bus-time/id6749821674?platform=iphone";
+    } else if (isAndroid) {
+      // Redirect to Google Play Store for Android devices
+      window.location.href =
+        "https://play.google.com/store/apps/details?id=dev.tommyto.hkbustime&pcampaignid=web_share";
     } else {
-      // Redirect to home page for Android and other devices
+      // Redirect to home page for other devices
       router.push("/");
     }
   }, [router]);

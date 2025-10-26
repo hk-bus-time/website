@@ -1,6 +1,6 @@
 export const termsMarkdown = `# Terms of Service
 
-**Last Updated: July 27, 2025**
+**Last Updated: October 26, 2025**
 
 Welcome to HK Bus Time, a mobile application developed and owned by Tommy To, an individual, that provides real-time bus route information and estimated times of arrival (ETAs) for public transportation in Hong Kong. By downloading, accessing, or using HK Bus Time ("the App"), you agree to be bound by these Terms of Service ("ToS"). If you do not agree with these terms, please do not use the App.
 
@@ -10,7 +10,7 @@ Welcome to HK Bus Time, a mobile application developed and owned by Tommy To, an
 - **Compliance**: You agree to use the App in compliance with all applicable laws and regulations in Hong Kong.
 
 ## 2. Service Availability and Third-Party Data
-- **Third-Party Services**: HK Bus Time relies on third-party services, including Google Maps Route API for route polylines, data.gov.hk for transportation data, and Firebase Analytics for usage analytics. We do not guarantee the accuracy, timeliness, or availability of data provided by these services.
+- **Third-Party Services**: HK Bus Time relies on third-party services, including OpenFreeMap for map styling, data.gov.hk for transportation data, and Firebase Analytics for usage analytics. We do not guarantee the accuracy, timeliness, or availability of data provided by these services.
 - **Bus Data Source**: This app uses data from HK Bus Crawling@2021, https://github.com/hkbus/hk-bus-crawling, which provides daily updated bus route, fare, and stop information across KMB, CTB, NLB, minibus, MTR, and light rail services in Hong Kong.
 - **Service Interruptions**: The App may be unavailable due to maintenance, technical issues, or disruptions in third-party services beyond our control.
 - **Disclaimer**: Tommy To is not responsible for any inaccuracies, delays, or errors in bus ETAs or route information, as these depend on third-party data sources.
@@ -29,7 +29,7 @@ Welcome to HK Bus Time, a mobile application developed and owned by Tommy To, an
 - **Normal Use**: You agree to use the App as intended, solely for accessing bus route information and ETAs.
 
 ## 5. Intellectual Property
-- All content, design, and functionality of the App, including but not limited to text, graphics, and code, are the property of Tommy To or third-party licensors (e.g., Google Maps, data.gov.hk). You are granted a limited, non-exclusive, non-transferable license to use the App for personal purposes only.
+- All content, design, and functionality of the App, including but not limited to text, graphics, and code, are the property of Tommy To or third-party licensors (e.g., OpenFreeMap, data.gov.hk). You are granted a limited, non-exclusive, non-transferable license to use the App for personal purposes only.
 
 ## 6. Termination
 - **Right to Terminate**: Tommy To reserves the right to suspend or terminate your access to the App at any time, without notice, if you violate these ToS or engage in conduct that harms the App, its users, or its operations.
@@ -79,7 +79,7 @@ We use the collected information solely to operate and improve the App:
 
 ## 4. Data Sharing
 We do not share your data with third parties except as necessary to provide the App's functionality:
-- **Google Maps Route API**: We use Google Maps Route API to generate route polylines. This may involve sharing your location data with Google solely to provide real-time route information. Google's use of this data is governed by their [Privacy Policy](https://policies.google.com/privacy).
+- **OpenFreeMap**: We use OpenFreeMap for map styling and visualization. No user data is shared with OpenFreeMap.
 - **Firebase Analytics**: Anonymized user count data is shared with Google for analytics purposes, governed by Google's [Privacy Policy](https://policies.google.com/privacy).
 - **data.gov.hk**: We use publicly available transportation data from data.gov.hk, but no user data is shared with this service.
 - We do not sell, trade, or otherwise share your data for commercial purposes.
