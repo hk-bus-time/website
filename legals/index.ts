@@ -106,3 +106,5 @@ If you have any questions, concerns, or requests regarding this Privacy Policy o
 
 By using HK Bus Time, you acknowledge that you have read, understood, and agree to this Privacy Policy. Thank you for choosing HK Bus Time to navigate Hong Kong's public transportation!
 `;
+
+export const announcementContent: string | null = null;
